@@ -67,12 +67,25 @@
     margin-bottom: 50px;
 }
 
+.contacts, 
+.tech-skills {
+    margin-left: 40px;
+}
+
+
 .sidebar-title {
     color: #ffffff;
     font-style: normal;
-    font-weight: ;
-    font-size: ;
-    
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
 
+.contact-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
 }
 
