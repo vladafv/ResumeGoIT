@@ -19,16 +19,12 @@
 /* about styles */
 
 .about {
-    background-color: yellow;
+
 }
 
 /*projects styles */
 .projects {
-    background: chocolate;
-    margin-top: 100px ;
-    margin-bottom: 300px ;
-    margin-left: 60px;
-    margin-left: 90px;
+
 
    /*margin: 100px 90px 300px 60px;
 
@@ -62,5 +58,21 @@
 /*sidebar styles */
 .sidebar {
     background-color: #1e2939;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.sidebar-title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: ;
+    font-size: ;
+    
+
 }
 
