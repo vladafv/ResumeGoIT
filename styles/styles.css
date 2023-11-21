@@ -1,12 +1,12 @@
 .body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f5f7fa;
 }
 
 /* main styles */
 .main {
     display: flex;
     flex-direction: row-reverse;
-    background-color: #f5f7fa;
     width: 1200px;
     margin: 0 auto;
 }
@@ -14,48 +14,60 @@
 
 .main-content {
     background-color: #fff;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
 }
 
-/* about styles */
 
 .about {
-
+    margin-bottom: 40px;
 }
 
-/*projects styles */
+.about-position{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about-name {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    width: 400px;
+}
+
+
 .projects {
 
-
-   /*margin: 100px 90px 300px 60px;
-
-    margin: 50px;
-
-    margin: 100px 50px;*/
 }
 
-.project-title {
+.title {
 
 }
-
-/*work styles */
 
 .work {
 
-
-    /*padding: 100px 40px 50px 20px;
-
-    padding: 50px;
-
-    padding: 50px 100px;*/
 }
 
 
-/*education styles */
 .education {
     
 }
 
-/*sidebar styles */
 .sidebar {
     background-color: #1e2939;
     padding-top: 40px;
@@ -68,10 +80,14 @@
 }
 
 .contacts, 
-.tech-skills {
+.tech-skills,
+.soft-skills {
     margin-left: 40px;
 }
 
+.contacts {
+    margin-bottom: 50px;
+}
 
 .sidebar-title {
     color: #ffffff;
@@ -79,6 +95,7 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
+    margin-bottom: 10px;
 }
 
 .contact-type {
@@ -87,5 +104,38 @@
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+    margin-right: 10px;
 }
 
+.contact-link {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    color: #565E6A;
+}
+
+.tech-skills {
+    margin-bottom: 45px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #FFFFFF;
+    padding: 0px;
+    margin-left: 17px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+}
