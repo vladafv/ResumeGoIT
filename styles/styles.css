@@ -1,5 +1,5 @@
-.body {
-    font-family: "Montserrat", sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     background-color: #f5f7fa;
 }
 
@@ -52,20 +52,122 @@
 
 
 .projects {
+    margin-bottom: 50px;
 
 }
 
 .title {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
 
+.projects-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.projects-item {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px
+}
+
+.project,
+.project-link {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.project-link {
+    margin-left: 10px;
+}
+
+.project-bracket {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px
 }
 
 .work {
 
 }
 
+.work-position {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.organization {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.line {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.work-list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work-list-item {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+}
 
 .education {
     
+}
+
+.education-place {
+    color: #FB6D3A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.job {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .sidebar {
